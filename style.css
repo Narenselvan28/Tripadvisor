@@ -1,0 +1,663 @@
+* {
+    font-family: "Gabarito", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-top: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+
+}
+.type-mob{
+    display: none;
+}
+
+.navbar__logo img,
+.navbar__logo {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-self: center;
+}
+
+.navbar__logo {
+    margin-left: 9%;
+}
+
+.navbar__options {
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    margin-left: 8%;
+    gap: 10px;
+    font-weight: bold;
+    border-bottom: white solid 2PX;
+}
+.navbar__options p:hover{
+    
+    border-bottom: black solid 2PX;
+}
+
+.navbar__s3 {
+    align-self: center;
+    display: flex;
+    margin-right: 10%;
+}
+
+ .acards-0:hover ,.acards-1:hover,.acards-2:hover,.acards-3:hover{
+   border-radius: 10px;
+   background-color: transparent;
+   transition-duration: 100ms;
+   padding: 7px;
+   cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+.navbar__s3 img {
+    display: flex;
+    width: 20px;
+    align-self: center;
+    height: 20px;
+}
+
+.navbar__s3 h1 {
+    display: flex;
+    align-self: center;
+    opacity: 60%;
+    font-weight: 200;
+}
+
+.navbar__sign,
+.navbar__s3 h4 {
+    margin: 4px;
+    display: flex;
+    align-self: center;
+}
+
+.navbar__sign {
+    margin-left: 20px;
+
+    background-color: black;
+    border: black solid 2px;
+    color: white;
+    border-radius: 30px;
+}
+.navbar__sign:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar__sign h3 {
+    padding: 10px;
+}
+
+.wt {
+
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.type {
+    padding: 10px;
+    display: flex;
+    margin-top: 35px;
+    gap: 25px;
+    justify-content: center;
+
+}
+.type p:hover{
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: solid black 2px;
+}
+
+.se {
+    padding: 10px;
+    
+
+}
+
+.se2,
+.se3,
+.se4,
+.se5,
+.se6 {
+    padding: 10px;
+    border-bottom: solid rgb(255, 255, 255) 2px;
+}
+
+.type p {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.searchbar {
+    padding: 10px;
+    border: rgb(223, 223, 223) solid 2px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 24%;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar input {
+    margin-left: 6px;
+    width: 100%;
+    height: 0100%;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-self: center;
+}
+
+.searchbar i {
+    margin-left: 10px;
+
+}
+
+.searchbar input:focus {
+    outline: none;
+    border: none;
+}
+
+.searchbar button {
+    border: none;
+    padding: 15px;
+    background-color: #34E0A1;
+    border: #34E0A1 solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    border-radius: 31px;
+    margin-right: 0;
+
+    position: relative;
+    width: 15%;
+    left: 5px;
+}
+.searchbar button:hover{
+    background-color: white;
+    color: #34E0A1;
+    cursor: pointer;
+}
+
+.adv {
+    position: static;
+}
+
+.adv img {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10;
+    width: 80%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.adv__txt {
+
+    color: #1A237E;
+    width: 25%;
+    position: absolute;
+    top: 630px;
+    left: 57%;
+}
+
+.adv__txt h1 {
+    font-size: 42px;
+}
+
+.adv__txt H2 {
+    font-size: 25PX;
+}
+
+.adv__txt button {
+    width: 55%;
+    border: none;
+    background-color: white;
+    color: #1A237E;
+    height: 60px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+
+}
+.adv__txt button:hover{
+    background-color: #1A237E;
+    color: white;
+}
+
+.exp__s1 {
+    padding: 10px;
+
+
+}
+
+.exp {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+.exp__cards img {
+    width: 100%;
+    background-color: azure;
+    border-radius: 10px;
+
+}
+
+.exp__cards {
+    margin-top: 20px;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 25%;
+    gap: 10px;
+
+
+}
+
+.cards-0,
+.cards-1,
+.cards-2,
+.cards-3 {
+    
+    text-align: center;
+
+}
+
+.cards-0 h1,
+.cards-1 h1,
+.cards-2 h1,
+.cards-3 h1 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 3px;
+    font-size: 30px;
+    position: relative;
+    top: -15px;
+}
+
+.pla {
+
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.pla__s2 {
+    margin-top: 20px;
+}
+
+.acards-0,
+.acards-1,
+.acards-2,
+.acards-3 {
+    position: relative;
+    z-index: ;
+
+
+}
+
+.acards-0 i {
+    position: absolute;
+    z-index: 1;
+    left: 90%;
+    top: 8px;
+}
+
+.acards-1 i {
+    position: absolute;
+    z-index: 1;
+    left: 90%;
+    top: 8px;
+}
+
+.acards-2 i {
+    position: absolute;
+    z-index: 1;
+    left: 88%;
+    top: 8px;
+}
+
+.acards-3 i {
+    position: absolute;
+    z-index: 1;
+    left: 88%;
+    top: 8px;
+}
+.ad{
+    background-color: silver;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 80px;
+    position: relative;
+}
+.x{
+    position: absolute;
+    right: 1%;
+    top: 5px;
+}
+
+.s4{
+   
+    margin-top: 90px;
+    background-color: be8ge;
+    width: 100%;
+    height: 400px;
+}
+.s4__one {
+    padding-top: 40px;
+    text-align: center;
+}
+.s4__two{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+.ximg img{
+    width: 90%;
+    border-radius: 15px;
+}
+.ximg p{
+    margin-left:12% ;
+    margin-top: 10px;
+}
+.ti img{
+    width: 100%;
+    margin-top: 80px;
+}
+.ti{
+    position: relative;
+}
+
+
+.foot{
+    background-color: #F2F2F2;
+    margin-top: 80px;
+    height: 500px;
+    
+    
+}
+.f_s1{
+    padding-top: 60px;
+    margin-left: 11%;
+    display: flex;
+    gap: 100px;
+    line-height: 30px;
+}
+.Currency select, .Language select{
+    display: flex;
+    align-items: center;
+    width: 250%;
+    height: 40px;
+    font-size: 15px;
+    text-align: center; 
+    border-radius: 20px;   
+}
+.f_s1 p:hover{
+    background-color: silver;
+    padding: 7px;
+    border-radius: 15px;
+    transition-duration: 100ms;
+
+}
+.Currency1, .Language1{
+    display: none;
+}
+.foot_logo{
+    width: 50px;
+    margin-left: 11%;
+    display: flex;
+    align-items: start;
+    
+}
+
+.foot_logo img{
+    border-radius: 40px;
+    
+}
+
+
+
+
+@media screen and (max-width:900px) {
+    body{
+        font-size: 12px;
+    }
+    .navbar__options, .navbar__s3 img ,.navbar__s3 h4 ,.navbar__s3 h1{
+        display: none;
+    }
+    .searchbar{
+        margin-left: 15%;
+        width: 70%;
+    }
+    .type{
+        display: none;
+    }
+    .type-mob{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3%;
+        padding: 10px;
+        gap: 1%;
+        background-color: white;
+        font-size: 20px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 10px;
+        
+    }
+        
+    
+    .type-mob p:hover{
+        background-color: silver;
+        border-radius: 20px;
+        padding: 10px;
+        transition-duration: 100ms;
+        cursor: pointer;
+    }
+    .adv img{
+        height: 400px;
+    }
+    .adv__txt {
+
+        color: #1A237E;
+        width: 25%;
+        position: absolute;
+        top: 520px;
+        left: 57%;
+    }
+    
+    .adv__txt h1 {
+        font-size: 26px;
+    }
+    
+    .adv__txt H2 {
+        font-size: 20PX;
+    }
+  
+    
+    
+      
+}
+@media screen and (max-width:600px) 
+{
+    .searchbar{
+        height: 20px;
+    }
+    .searchbar button {
+        border: none;
+        padding: 11px;
+        background-color: #34E0A1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        border-radius: 31px;
+        margin-right: 0;
+    
+        position: relative;
+        width: 15%;
+        left: 5px;
+    }
+    .type-mob{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3%;
+        padding: 10px;
+        gap: 1%;
+        background-color: white;
+        font-size: 1    0px;
+        
+    }
+    .adv img{
+        height: 200px;
+    }
+    .adv__txt {
+
+        color: #1A237E;
+        width: 28%;
+        position: absolute;
+        top: 435px;
+        left: 57%;
+    }
+    
+    .adv__txt h1 {
+        font-size: 16px;
+    }
+    
+    .adv__txt H2 {
+        font-size: 10PX;
+    }
+    .adv button{
+        margin-right: 100px;
+        font-size: 10px;
+        height: 40px;
+        width: 100%;
+    }
+    .foot_logo{
+        display: none;
+        
+    }
+      
+    .exp__s1 {
+        padding: 10px;
+    
+    
+    }
+    
+    .exp , .exp__cards{
+        margin-top: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+        overflow-x: scroll;
+    
+    }
+    
+    .exp__cards img {
+        width: 210px;
+        background-color: azure;
+        border-radius: 10px;
+       
+    
+    }
+    
+    .exp__cards {
+        margin-top: 20px;
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 25%;
+        gap: 10px;
+    
+    
+    }
+    
+    .cards-0,
+    .cards-1,
+    .cards-2,
+    .cards-3 {
+    
+        text-align: center;
+    
+    }
+    
+    .cards-0 h1,
+    .cards-1 h1,
+    .cards-2 h1,
+    .cards-3 h1 {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 3px;
+        font-size: 30px;
+        position: relative;
+        top: -15px;
+    }
+    .s4{
+   
+        margin-top: 90px;
+        background-color: beige;
+        width: 100%;
+        height: 370px;
+        overflow-x: scroll;
+    }
+    .s4__one {
+        padding-top: 40px;
+        text-align: center;
+    }
+    .s4 img{
+        height: 200px;
+        width: 400px;
+
+    }
+    .s4__two{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 40px;
+        display: flex;
+        gap: 20px;
+    }
+    .Currency, .Language{
+        display: none;
+    }
+    .Currency1 select, .Language1 select{
+        display: flex;
+        width: 250%;
+    height: 40px;
+    font-size: 15px;
+    text-align: center; 
+    border-radius: 20px;   
+    }
+    
+}
